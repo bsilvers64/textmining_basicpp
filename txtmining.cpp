@@ -70,7 +70,7 @@ int vectorsize = stringholder.size();
     wordcount = 1;
     word = stringholder[0];
 
-    for (int i=1;i<vectorsize;i++) {                  //nigga each word is counted in this loop
+    for (int i=1;i<vectorsize;i++) {                  //each word is counted in this loop
 
         if (word!=stringholder[i]) {
             if (wordcount == 1 && wordcount < 2) {
@@ -108,4 +108,4 @@ vectorsize = unqstringholder.size();
   f.close();
   return 0;
 
-}                 //correct 100 lines lmao
+}             
