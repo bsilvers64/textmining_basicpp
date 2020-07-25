@@ -45,7 +45,7 @@ int main () {
   f.open("sometext_2.txt",ios::in);
  if (f.is_open()) {
          while (f>>word) {
-                wordcount++;         // word count my nigga
+                wordcount++;         // word count 
          }
   }
  cout<<endl<<" the total number of words in the file without prepositions is : "<<wordcount<<endl;    // word count displayed for file 2, i.e. without prepositions.
